@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-noto-sans);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
